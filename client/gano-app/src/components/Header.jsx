@@ -3,9 +3,9 @@ import {Link} from 'react-router-dom';
 function Header(){ 
     return(
         <>
-            <div className="w-full h-14 shadow-md">
-                <img src={logoHeader} alt="" />
-                <nav className='flex flex-row items-center'>
+            <div className="w-full h-14 shadow-xl flex gap-14 z-30">
+                <img src={logoHeader} alt="" className='pl-5'/>
+                <nav className='flex flex-row items-center gap-5 text-xl'>
                     <Link to={'/'}>Главная</Link>
                     <Link to={'/Catalog'}>Каталог</Link>
                     <Link to={'/AboutUs'}>О Нас</Link>
