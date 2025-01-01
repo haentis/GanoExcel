@@ -5,10 +5,9 @@ function Header() {
     return (
         <>
             <div className="w-full h-16 shadow-lg flex justify-between items-center px-6 fixed bg-white z-30">
-                {/* Логотип */}
                 <img src={logoHeader} alt="Gano Logo" className="h-10 cursor-pointer" />
 
-                {/* Навигация */}
+        
                 <nav className="flex items-center gap-6 text-lg">
                     <Link 
                         to={'/'} 
@@ -32,7 +31,6 @@ function Header() {
                     </Link>
                 </nav>
 
-                {/* Кнопка для действий */}
                 <Link 
                     to={'/Contact'} 
                     className="bg-blue-500 text-white px-5 py-2 rounded-full shadow-md hover:bg-blue-600 transition duration-300">
