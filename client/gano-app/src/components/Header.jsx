@@ -1,14 +1,19 @@
+import { useState } from 'react';
 import logoHeader from '/public/Logo.png';
 import { Link } from 'react-router-dom';
 
 function Header() {
+
+    const [isOpen, setIsOpen]  = useState(false);
+
+
     return (
         <>
-            <div className="w-full h-16 shadow-lg flex justify-between items-center px-6 fixed bg-white z-30">
-                <img src={logoHeader} alt="Gano Logo" className="h-10 cursor-pointer" />
+            <div className="w-full h-16 shadow-lg flex justify-between items-center px-6 fixed bg-white z-30 text-nowrap">
+                <img src={logoHeader} alt="Gano Logo" className="h-10 cursor-pointer"  />
 
-        
-                <nav className="flex items-center gap-6 text-lg">
+              
+                <nav className={`${isOpen ? "hidden" : "block"} lg:flex lg:flex-row lg:h-16 lg:items-center lg:gap-6 lg:text-lg lg:static lg:w-auto lg:h-auto top-14 right-0 w-full items-center text-xl bg-white flex gap-5 flex-col absolute p-6`}>
                     <Link 
                         to={'/'} 
                         className="hover:text-blue-600 transition duration-300">
@@ -31,11 +36,19 @@ function Header() {
                     </Link>
                 </nav>
 
-                <Link 
-                    to={'/Contact'} 
-                    className="bg-blue-500 text-white px-5 py-2 rounded-full shadow-md hover:bg-blue-600 transition duration-300">
-                    Связаться с нами
-                </Link>
+                <div>
+                    <button className='w-10 h-[40px] bg-blue-500 lg:hidden min-w-[40px] rounded-3xl' onClick={() => setIsOpen(!isOpen)}>
+                        {isOpen ? '☰' : '✖'}
+                    </button>
+
+
+                    <Link 
+                        to={'/Contact'} 
+                        className={`bg-blue-500 lg:text-white px-5 py-2 rounded-full shadow-md min-w-28 lg:inline-block hidden  hover:bg-blue-600 transition duration-300`}>
+                        Связаться с нами
+                    </Link>
+                </div>
+                
             </div>
         </>
     );
