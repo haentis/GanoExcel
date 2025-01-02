@@ -49,7 +49,7 @@ function Banner() {
                           initial="hidden"
                           whileInView="visible"
                           variants={animation}
-                         className='text-7xl text-white pl-16 cursor-default '
+                         className='lg:text-7xl text-4xl text-white lg:pl-16 pl-5 cursor-default '
                          >
                             Откройте силу <br />
                             ганодермы для здоровья
@@ -62,7 +62,7 @@ function Banner() {
                              initial="hidden"
                              whileInView="visible"
                              variants={animation}
-                            className='text-7xl text-white pl-16  cursor-default '>
+                            className='lg:text-7xl text-4xl text-white lg:pl-16 pl-5 cursor-default '>
                                 Питайтесь правильно,<br />
                             живите здорово с ганодермой!
                         </motion.p>
@@ -74,7 +74,7 @@ function Banner() {
                              initial="hidden"
                              whileInView="visible"
                              variants={animation}
-                            className='text-7xl text-white pl-16  cursor-default'>
+                            className='lg:text-7xl text-4xl text-white lg:pl-16 pl-5 cursor-default '>
                                 Здоровье и гармония<br />
                              начинаются с Gano Excel
                         </motion.p>
@@ -86,7 +86,7 @@ function Banner() {
                              initial="hidden"
                              whileInView="visible"
                              variants={animation}
-                            className='text-7xl text-white pl-16  cursor-default '>
+                            className='lg:text-7xl text-4xl text-white lg:pl-16 pl-5 cursor-default '>
                                 Ощутите баланс и силу <br />
                                 природы с ганодермой.
                         </motion.p>
