@@ -1,4 +1,4 @@
-import ContentCatalog from "./ContentCatalog";
+// import ContentCatalog from "./ContentCatalog";
 import { Product } from "../../data/productsData";
 
 function MainCatalog(){
@@ -7,13 +7,13 @@ function MainCatalog(){
             <div className="w-full h-[1000px] bg-white flex flex-col  items-center">
                  {
                                     Product.map((item) => {
-                                        <div key={item.id}>
+                                        <div className="w-72 h-[400px] bg-black"  key={item.id}>
                                             <p>{item.image}</p>
                                             <p>{item.name}</p>
                                         </div>
                                     })
                 }
-                <ContentCatalog/>
+                {/* <ContentCatalog/> */}
             </div>
         </>
     )
