@@ -1,4 +1,4 @@
-// import MainCatalog from "../components/Catalog/MainCatalog";
+import MainCatalog from "../components/Catalog/MainCatalog";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 // import { lazy} from 'react';
@@ -10,7 +10,7 @@ function Catalog(){
     return(
         <>
           <Header/>
-          <MarkdownPreview/>
+          <MainCatalog/>
           <Footer/>
         </>
     )
