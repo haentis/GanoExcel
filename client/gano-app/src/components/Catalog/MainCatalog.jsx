@@ -1,19 +1,12 @@
-// import ContentCatalog from "./ContentCatalog";
-import { Product } from "../../data/productsData";
+import ContentCatalog from "./ContentCatalog";
+// import { Product } from "../../data/productsData";
 
 function MainCatalog(){
     return(
         <>
-            <div className="w-full h-[1000px] bg-white flex flex-col  items-center">
-                 {
-                                    Product.map((item) => {
-                                        <div className="w-72 h-[400px] bg-black"  key={item.id}>
-                                            <p>{item.image}</p>
-                                            <p>{item.name}</p>
-                                        </div>
-                                    })
-                }
-                {/* <ContentCatalog/> */}
+            <div className="w-full h-auto flex flex-col  items-center justify-center">
+                <div className="w-[90%] h-[50px] shadow-xl mt-32 rounded-lg"></div>
+                 <ContentCatalog/>
             </div>
         </>
     )

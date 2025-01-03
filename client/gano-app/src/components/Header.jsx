@@ -6,8 +6,7 @@ import { motion } from 'motion/react';
 function Header() {
 
     const [isOpen, setIsOpen]  = useState(false);
-
-
+    
     return (
         <>
             <div className="w-full h-16 shadow-lg flex justify-between items-center px-6 fixed bg-white z-30 text-nowrap">

@@ -1,4 +1,5 @@
 import MainCatalog from "../components/Catalog/MainCatalog";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 
@@ -7,6 +8,7 @@ function Catalog(){
         <>
           <Header/>
           <MainCatalog/>
+          <Footer/>
         </>
     )
 }
