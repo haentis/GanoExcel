@@ -1,9 +1,12 @@
+import MainCatalog from "../components/Catalog/MainCatalog";
+import Header from "../components/Header";
 
 
 function Catalog(){
     return(
         <>
-            <p>Catalog!</p>
+          <Header/>
+          <MainCatalog/>
         </>
     )
 }
