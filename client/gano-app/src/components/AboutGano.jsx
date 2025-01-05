@@ -1,4 +1,6 @@
 import { motion } from "motion/react";
+import { Link } from "react-router-dom";
+
 
 const animation = {
     hidden: {
@@ -120,15 +122,20 @@ function AboutGano() {
         </ul>
     </div>
 
-    <motion.button 
-    initial="hidden"
-    whileInView="visible"
-    variants={animation_button}
-    viewport={{amount:0.6, once:true}}
-    className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition transform duration-300">
-        Перейти в каталог
-    </motion.button>
-</div>
+        <motion.div
+            initial="hidden"
+            whileInView="visible"
+            variants={animation_button}
+            viewport={{amount:0.6, once:true}}
+            className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition transform duration-300"
+            >
+            <Link to='/Catalog'>
+                Перейти в каталог
+            </Link>
+        </motion.div>
+        
+    
+    </div>
 
         </>
     );
