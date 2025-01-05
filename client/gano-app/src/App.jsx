@@ -15,7 +15,7 @@ function App() {
         <Route path="/Catalog" element={<Catalog/>}/>
         <Route path="/AboutUs" element={<AboutUs/>}/>
         <Route path="/Info" element={<Info/>}/>
-        <Route path="/product/:1" element={<FullTovar/>} />
+        <Route path="/product/:id" element={<FullTovar/>} />
       </Routes>
     </BrowserRouter>
     </>

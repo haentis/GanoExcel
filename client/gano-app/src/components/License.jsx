@@ -19,7 +19,7 @@ import DSA2 from '/dsa.jfif';
 function License() {
     return (
         <div className="py-10 bg-gray-100 mt-28">
-            <h2 className="text-center text-2xl font-bold text-gray-800 mb-6">Лицензии</h2>
+            <h2 className="text-center text-2xl font-bold text-gray-800 mb-6">Лицензии и Сертификаты</h2>
             <Swiper
                 spaceBetween={20}
                 slidesPerView={4}
@@ -29,7 +29,7 @@ function License() {
                     1024: { slidesPerView: 5, spaceBetween: 20 },
                 }}
                 autoplay={{
-                    delay: 500,
+                    delay: 1000,
                     disableOnInteraction: false,
                 }}
                 modules={[Autoplay]}
