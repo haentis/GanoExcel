@@ -29,7 +29,7 @@ function License() {
                     1024: { slidesPerView: 5, spaceBetween: 20 },
                 }}
                 autoplay={{
-                    delay: 2000,
+                    delay: 500,
                     disableOnInteraction: false,
                 }}
                 modules={[Autoplay]}
