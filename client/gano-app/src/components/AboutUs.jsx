@@ -1,10 +1,9 @@
-import Header from "../components/Header";
+
 
 function AboutUs(){
     return(
         <>
-           <Header/>
-           <AboutUs/>
+            <p>Hello</p>
         </>
     )
 }
