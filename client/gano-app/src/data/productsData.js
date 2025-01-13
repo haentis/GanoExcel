@@ -12,6 +12,7 @@ import iExcel from '/public/iexcel-plus-big.png';
 import Creal from '/public/creal-spirulina.png';
 import Isupremo from '/public/isupremo-coffee-big.png';
 import Ibrown from '/public/ibrown.jpeg';
+import Koppe from '/public/koppe.png';
 
 export const Product = [
     {
@@ -244,6 +245,24 @@ export const Product = [
             "Повышает метаболизм",
             "Снимает умственный стресс",
             "Антивозратсной эффект",
+        ]
+    },
+    {
+        id: 14,
+        name: "Koppe 3 in 1",
+        image: Koppe,
+        desc: 'Сочетание растворимого кофе и экстракта Ганодермы. Дает вам отличный, освежающий вкус кофе, а также вы получаете огромную пользу для здоровья от Ganoderma. Этот напиток служит для вас здоровым удовольствием',
+        packaging: "20 саше.",
+        application: "1 пакетик на 1 кружку. Налейте в горячую воду, хорошо перемешайте. Готов к употреблению.",
+        categoria: 'default',
+        benefits: [
+            "Укрепляет иммунитет организма",
+            "Повышает уровень энергии.",
+            "Повышает внимание, уменьшает усталость.",
+            "Стимулирует сжигание жиров",
+            "Улучшает умственную работоспособность",
+            "Улучшает память",
+            "Способствует молодости и жизнеспособности",
         ]
     },
 
