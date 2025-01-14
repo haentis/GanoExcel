@@ -9,7 +9,7 @@ function Header() {
     
     return (
         <>
-            <div className="w-full h-16 shadow-lg flex justify-between items-center px-6 fixed bg-white z-30 text-nowrap">
+            <div className="w-full h-16 shadow-lg flex justify-between items-center px-6 fixed bg-white z-30">
                 <img src={logoHeader} alt="Gano Logo" className="h-10 cursor-pointer"  />
 
               
@@ -32,7 +32,7 @@ function Header() {
                     <Link 
                         to={'/AboutUs'} 
                         className="hover:text-blue-600 transition duration-300">
-                        О Нас
+                        О Компании
                     </Link>
                     <Link 
                         to={'/Info'} 
