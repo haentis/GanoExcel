@@ -35,11 +35,6 @@ function Header() {
                         О Компании
                     </Link>
                     <Link 
-                        to={'/Info'} 
-                        className="hover:text-blue-600 transition duration-300">
-                        Нужная информация
-                    </Link>
-                    <Link 
                         to={'/Contact'} 
                         className={`bg-blue-500 lg:hidden text-white px-5 py-2 rounded-full shadow-md min-w-28 inline-block hover:bg-blue-600 transition duration-300`}>
                         Связаться с нами
