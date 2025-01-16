@@ -5,3 +5,6 @@
 body{
     @apply font-semibold;
 }
+ul {
+    list-style: disc;
+}

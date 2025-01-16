@@ -39,11 +39,15 @@ const animationText = {
     },
 };
 
+
+
+
+
 function FullTovarComp() {
     const { id } = useParams();
     const tovar = Product.find((item) => item.id === parseInt(id));
 
-    if (!tovar) {
+    if (!tovar) { 
         return <div className="text-center mt-10 text-red-500">Продукт не найден</div>;
     }
 
@@ -86,6 +90,15 @@ function FullTovarComp() {
                     className="text-lg lg:text-xl text-gray-600 leading-relaxed">
                         <span className="font-semibold text-gray-800">Описание: </span>{tovar.desc}
                     </motion.p>
+                   
+                    <h1 className="text-3xl">Польза:</h1>
+                    {
+                        tovar.benefits.map((benefit) => (
+                            <ul className="lg:text-2xl text-xl text-gray-600">
+                                <li className="">{benefit}</li>
+                            </ul>
+                        ))
+                    }
                 </div>
             </div>
         </div>
