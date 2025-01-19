@@ -53,7 +53,7 @@ function FullTovarComp() {
 
     return (
         <div className="w-full h-auto flex justify-center">
-            <div className="w-[70%] h-auto flex lg:flex-row flex-col lg:items-start absolute shadow-xl lg:mt-36 gap-12 p-8 m-auto">
+            <div className="w-[70%] h-auto flex lg:flex-row flex-col lg:items-start absolute shadow-xl lg:mt-36 mt-20  gap-12 p-8 m-auto">
                 <Link to="/Catalog" className="w-10 h-10 bg-cover text-4xl">&#10094;</Link>
                 <img src={tovar.image} alt="tovarImage" className="lg:w-[50%] lg:h-[500px] shadow-lg" />
                 <div className="flex flex-col gap-5">
