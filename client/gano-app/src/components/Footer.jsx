@@ -8,9 +8,9 @@ function Footer() {
                 </div>
 
                 <div className="flex space-x-6 mb-4 md:mb-0">
-                    <a href="#" className="text-gray-400 hover:text-white transition">Home</a>
-                    <a href="#" className="text-gray-400 hover:text-white transition">About</a>
-                    <a href="#" className="text-gray-400 hover:text-white transition">Contact</a>
+                    <a href="/" className="text-gray-400 hover:text-white transition">Главная</a>
+                    <a href="/AboutUs" className="text-gray-400 hover:text-white transition">О Компании</a>
+                    <a href="/Contact" className="text-gray-400 hover:text-white transition">Контакты</a>
                 </div>
 
                 <div className="flex space-x-4">

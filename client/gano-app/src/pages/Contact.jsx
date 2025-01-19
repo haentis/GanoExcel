@@ -27,7 +27,7 @@ function Contact() {
                         <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" className="text-black hover:text-blue-500 transition">
                             <i className="fab fa-tiktok"></i>
                         </a>
-                        <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-600 transition">
+                        <a href="https://wa.me/77013393539" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-600 transition">
                             <i className="fab fa-whatsapp"></i>
                         </a>
                     </div>
