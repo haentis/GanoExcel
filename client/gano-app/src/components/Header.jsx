@@ -29,11 +29,18 @@ function Header() {
                         className="hover:text-blue-600 transition duration-300">
                         Каталог
                     </Link>
+                    <Link
+                        to={'/License'} 
+                        className="hover:text-blue-600 transition duration-300"
+                    >
+                        Лицензии
+                    </Link>
                     <Link 
                         to={'/AboutUs'} 
                         className="hover:text-blue-600 transition duration-300">
                         О Компании
                     </Link>
+                    
                     <Link 
                         to={'/Contact'} 
                         className={`bg-blue-500 lg:hidden text-white px-5 py-2 rounded-full shadow-md min-w-28 inline-block hover:bg-blue-600 transition duration-300`}>
