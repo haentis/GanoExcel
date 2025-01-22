@@ -15,10 +15,10 @@ function Header() {
               
                 <motion.nav 
                 animate={{
-                    y: isOpen ? -50 : 0,
-                    opacity: isOpen ? 0.4 : 1,
+                    y: isOpen ?  0 : 0,
+                    opacity: isOpen ? 1 : 1,
                   }}
-                className={`${isOpen ? "hidden" : "block"} lg:flex lg:flex-row lg:items-center lg:gap-6 lg:text-lg lg:static lg:w-auto lg:h-16 top-14 right-0 w-full items-center text-xl bg-white flex gap-5 flex-col absolute p-6`}>
+                className={`${isOpen ? "block" : "hidden"} lg:flex lg:flex-row lg:items-center lg:gap-6 lg:text-lg lg:static lg:w-auto lg:h-16 top-14 right-0 w-full items-center text-xl bg-white flex gap-5 flex-col absolute p-6`}>
                     <Link 
                         to={'/'} 
                         className="hover:text-blue-600 transition duration-300">
@@ -43,7 +43,7 @@ function Header() {
 
                 <div>
                     <button className='w-10 h-[40px] bg-blue-500 lg:hidden min-w-[40px] rounded-3xl' onClick={() => setIsOpen(!isOpen)}>
-                        {isOpen ? '☰' : '✖'}
+                        {isOpen ? '✖' : '☰'}
                     </button>
 
 
