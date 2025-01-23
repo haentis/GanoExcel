@@ -24,7 +24,7 @@ function Contact() {
                         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:text-pink-600 transition">
                             <i className="fab fa-instagram"></i>
                         </a>
-                        <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" className="text-black hover:text-blue-500 transition">
+                        <a href="https://www.tiktok.com/@ganoenergy?_t=ZM-8tHq8bgs2JJ&_r=1" target="_blank" rel="noopener noreferrer" className="text-black hover:text-blue-500 transition">
                             <i className="fab fa-tiktok"></i>
                         </a>
                         <a href="https://wa.me/77013393539" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-600 transition">
